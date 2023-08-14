@@ -16,6 +16,10 @@ arr.forEach(button =>{
             string=string.substring(0,string.length-1);
             input.value=string;
         }   
+        else if(e.target.innerHTML=="Sq"){
+            string=123;
+            input.value=string;
+        }
         else{
             string+=e.target.innerHTML;
             input.value=string;
